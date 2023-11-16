@@ -26,14 +26,11 @@ h2 {
   line-height: 1.2;
 }
 
-h1::before {
-  content: "📧";
-  display: block;
-}
-
-h2::before {
-  content: "🐅";
-  display: block;
+h3{
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .form {

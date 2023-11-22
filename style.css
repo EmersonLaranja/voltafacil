@@ -5,16 +5,21 @@
 }
 
 body {
-  background: #0d0e0f;
+  /* background: #0d0e0f; */
   min-height: 100vh;
   display: flex;
   align-items: center;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-right: 1rem;
   padding-left: 1rem;
+  background: linear-gradient(45deg, #2EA6A6,#1B5953);
+  /* background: linear-gradient(#31afb400, #ffffff); */
+
 }
 
 h1,
@@ -73,14 +78,14 @@ h3{
 .form textarea:hover,
 .form textarea:focus {
   outline: none;
-  border-color: #09d;
-  box-shadow: 0 0 0 3px #4dc8ff;
+  border-color: #36BFBF;
+  box-shadow: 0 0 0 3px #36BFBF;
 }
 
 .form button {
   display: block;
   padding: 1rem;
-  background: #0072c4;
+  background: #0D0D0D;
   color: #fff;
   font: inherit;
   text-transform: uppercase;
@@ -93,5 +98,11 @@ h3{
 .form button:hover,
 .form button:focus {
   outline: none;
-  background: #09d;
+  background: #36BFBF;
+}
+
+#vf-logo{
+  max-width: 32rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

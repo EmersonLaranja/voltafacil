@@ -8,25 +8,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>VoltaFacil</h1>
+    <img id="vf-logo" src="assets/logo.png" alt="VoltaFacil Logo">
     <form
-      action="https://formsubmit.co/volta.facil.corp@gmail.com
-      "
+      action="https://formsubmit.co/volta.facil.corp@gmail.com"
       method="POST"
       class="form"
     >
-    <h3>Preencha o formulário para solicitar sua corrida</h3>
+      <h3>Preencha o formulário para solicitar sua corrida</h3>
       <label for="name">Nome</label>
-      <input type="text" name="name" id="name" required />
+      <input type="text" name="name" id="name" required placeholder="Nome completo"/>
+      
       <label for="email">E-mail</label>
-      <input type="email" name="email" id="email" required />
+      <input type="email" name="email" id="email" placeholder="seuemail@email.com" required />
+      
+      
+      <label for="celular">Celular</label>
+      <input type="tel" name="celular" id="celular" placeholder="Digite seu numero com DDD" required />
+      
+      <label for="location">Localização</label>
+      <input type="text" name="location" id="location" placeholder="Bairro, Rua, Número" required />
+
+      <label for="horario">Horário</label>
+      <input type="time" name="horario" id="horario" required />
+
       <label for="message">Mensagem</label>
-      <textarea name="message" id="message" required></textarea>
+      <textarea name="message" id="message" placeholder="Detalhes e informações adicionais" required></textarea>
+      
       <input type="hidden" name="_captcha" value="false" />
       <input
         type="hidden"
         name="_next"
-        value="https://yourdomain.co/thanks.html"
+        value="https://emersonlaranja.github.io/voltafacil/thanks.html"
       />
       <button type="submit">Enviar</button>
     </form>
